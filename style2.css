@@ -1,0 +1,42 @@
+    body {
+      background-color: #673ab7;
+      color: white;
+    }
+
+    input {
+      color: black;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding-left: 2px;
+      margin-left: 10px;
+      width: 100%
+    }
+    textarea{
+      color: black;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding-left: 2px;
+      margin-left: 10px;
+      width: 100%
+    }
+    .button {
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 5px;
+    }
+    td{
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    select  {
+      color: black;
+      background-color: #673ab7;
+      border: 1px solid #673ab7;
+    }

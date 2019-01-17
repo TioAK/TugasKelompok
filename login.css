@@ -1,0 +1,110 @@
+body{
+	font-family: Century Gothic;
+	background: url(bg1.jpg);
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+/* SForm */
+a{
+	color: black;
+	font-size: 10px;
+}
+#user,
+#key{
+	width: 20px;
+	height: auto;
+	position: relative;
+	top: 18px;
+}
+#lock{
+	width: 35px;
+	position: relative;
+	right: 40px;
+	top: 20px;
+}
+#usert{
+	position: relative;
+	top: -15px;
+	left: 10px;
+	color: black
+}
+#top{
+	position: relative;
+	top: 20px;
+}
+#login{
+	position: relative;
+	top: 150px;
+	width: 300px;
+	height: 350px;
+	background-color: #00cccc88;
+	border: 3px solid #000000;
+	border-radius: 25px;
+}
+#title{
+	background-color: #00ccccaa;
+	width: 294px;
+	font-size: 25px;
+	font-weight: ;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	padding-left: 60px;
+	border-radius: 25px;
+}
+#logbutton{
+	width: 80px;
+	height: 30px;
+	background-color: #eeeeee;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	transition: 0.3s;
+}
+#logbutton:hover{
+	background-color: #aaaaaa;
+}
+#space1{
+	margin-bottom: 7px;
+}
+.subtitle{
+	position: relative;
+	top: 4px;
+	font-size: 13px;
+	font-weight: bold;
+	left: 25px;
+	color: black;
+}
+td input[type="textbox"],
+td input[type="password"],
+td input[type="email"]{
+	border-radius: 10px;
+	border: 1px solid #000000;
+	font-size: 15px;
+	width: 250px;
+	height: 30px;
+	margin-top: -10px;
+	padding-left: 5px;
+}
+td{
+	position: relative;
+	bottom: 20px;
+}
+td input[type="password"]{
+	position: relative;
+	top: -15px;
+}
+#passwords{
+	position: relative;
+	top: -35px;
+}
+#passworded{
+	position: relative;
+	top: -8px;
+}
+
+/* EForm */
